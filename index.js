@@ -6,7 +6,7 @@ app.get("/", function (req, res) {
 });
 app.get("/test", function (req, res) {
   console.log("Got a GET request for /test");
-  res.send({ code: 200, message: "Got a GET request for /test" });
+  res.send({ code: 200, message: "Got a GET request from /test" });
 });
 
 var server = app.listen(8080, function () {
